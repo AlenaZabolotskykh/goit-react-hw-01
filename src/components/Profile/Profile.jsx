@@ -1,5 +1,3 @@
-import "../../userData.json";
-
 export default function Profile({
   name,
   tag,
