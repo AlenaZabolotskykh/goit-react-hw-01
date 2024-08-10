@@ -1,0 +1,63 @@
+.card {
+  border: solid 10px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: rgb(223, 217, 217);
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.img {
+  border-radius: 50%;
+  width: 300px;
+  max-width: 100%;
+
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #a09e9e;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: solid 3px;
+  border-color: #504e4e;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 45px;
+}
+
+.text {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.name {
+  color: black;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.tag {
+  color: #504e4e;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.location {
+  color: #504e4e;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+}
