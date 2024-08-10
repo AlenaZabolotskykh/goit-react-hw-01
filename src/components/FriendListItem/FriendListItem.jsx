@@ -1,4 +1,4 @@
-export default function FriendListItem({ avatar, name, isOnline, id }) {
+export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <div>
       <img src={avatar} alt="Avatar" width="48" />
