@@ -1,0 +1,29 @@
+.table {
+  border-collapse: collapse;
+  border: 1px solid grey;
+  margin-top: 100px;
+}
+
+.th {
+  border: 1px solid grey;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-size: 30px;
+}
+
+.td {
+  border: 1px solid grey;
+  padding: 10px 15px;
+  font-size: 25px;
+}
+
+.tr:nth-child(2n) {
+  background-color: rgb(161, 161, 161);
+}
+
+.type {
+  text-transform: capitalize;
+  font-size: 25px;
+  padding: 10px 50px 10px 50px;
+}

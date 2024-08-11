@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   padding: 0;
+  margin-top: 100px;
 }
 
 .item {
   border: solid 3px black;
   border-radius: 10px;
-  padding: 25px;
+  padding: 10px;
 }
